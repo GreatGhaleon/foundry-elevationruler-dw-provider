@@ -1,7 +1,7 @@
 {
-  "id": "foundry-elevationruler-dw-provider",
+  "id": "elevationruler-dw-provider",
   "title": "DW Elevation Ruler Provider",
-  "description": "Provider for DW Next to hook into Elevation Ruler. Preliminary credit goes to Daedalus. This will probably be replaced by his version when he wakes up.",
+  "description": "Provider for DW Next to hook into Elevation Ruler. Preliminary credit goes to Daedalus. This will probably be replaced by his version when he wakes up. ",
   "authors": [{ "name": "Daedalus11069" }, { "name": "Hal_Emmerich"}],
   "version": "This is auto replaced",
   "compatibility": {
