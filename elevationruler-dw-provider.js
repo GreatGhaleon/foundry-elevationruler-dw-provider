@@ -30,6 +30,8 @@ Hooks.once("setup", () => {
   ] = "person-swimming";
   CONFIG.elevationruler.SPEED.ATTRIBUTES.WALK =
     "actor.system.props.walkingSpeed";
+    CONFIG.elevationruler.SPEED.ATTRIBUTES.WALK =
+    "actor.system.props.SwimmingSpeed";
 
   CONFIG.elevationruler.pathfindingCheckTerrains = true;
 
