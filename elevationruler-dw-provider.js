@@ -22,16 +22,14 @@ Hooks.once("setup", () => {
   );
 
   CONFIG.elevationruler.MOVEMENT_TYPES.SWIM = 3; // Increment by 1 from the highest-valued movement type
-  CONFIG.elevationruler.MOVEMENT_TYPES.FLIGHT = 4;
+  
   
   // This label is from Font Awesome
   CONFIG.elevationruler.MOVEMENT_BUTTONS[
     CONFIG.elevationruler.MOVEMENT_TYPES.SWIM
   ] = "person-swimming";
   CONFIG.elevationruler.SPEED.ATTRIBUTES.WALK =
-    "actor.system.props.walkingSpeed"; // dw
-  CONFIG.elevationruler.SPEED.ATTRIBUTES.SWIM =
-    "actor.system.props.swimmingSpeed"; // dw
+    "actor.system.props.walkingSpeed";
 
   CONFIG.elevationruler.pathfindingCheckTerrains = true;
 
